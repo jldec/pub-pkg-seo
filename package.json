@@ -1,0 +1,20 @@
+{
+  "name": "pub-pkg-seo",
+  "version": "1.0.0",
+  "description": "pub-server package to generate robots.txt and sitemap.xml",
+  "main": "pub-config.js",
+  "dependencies": {
+  },
+  "keywords": [
+    "publish",
+    "seo",
+    "robots",
+    "sitemap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jldec/pub-pkg-seo.git"
+  },
+  "author": "jurgen leschner",
+  "license": "MIT"
+}
