@@ -1,9 +1,15 @@
 {
   "name": "pub-pkg-seo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pub-server package for generating robots.txt and sitemap.xml",
   "main": "pub-config.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "pub-generator": "^2.1.2",
+    "pub-resolve-opts": "^1.7.2",
+    "pub-src-fs": "^2.0.3",
+    "tape": "^4.9.2"
   },
   "keywords": [
     "publish",
@@ -14,6 +20,10 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/jldec/pub-pkg-seo.git"
+  },
+  "scripts": {
+    "test": "tape test/norobots/norobots.test.js && tape test/yesrobots/yesrobots.test.js ",
+    "lint": "eslint ."
   },
   "author": "jurgen leschner",
   "license": "MIT"

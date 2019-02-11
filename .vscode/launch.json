@@ -1,0 +1,26 @@
+// from https://jestjs.io/docs/en/troubleshooting#debugging-in-vs-code
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "test norobots",
+      "program": "${workspaceRoot}/test/norobots.test.js",
+      "cwd": "${workspaceRoot}/test"
+    },
+    {
+      "name": "Debug Jest Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": [
+        "--inspect-brk",
+        "${workspaceRoot}/node_modules/.bin/jest",
+        "--runInBand"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "port": 9229
+    }
+  ]
+}
