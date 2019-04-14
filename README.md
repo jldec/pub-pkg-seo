@@ -1,16 +1,14 @@
 # pub-pkg-seo
+[![Azure Build Status](https://dev.azure.com/jldec/pub-pkg-seo/_apis/build/status/jldec.pub-pkg-seo?branchName=master)](https://dev.azure.com/jldec/pub-pkg-seo/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://api.travis-ci.org/jldec/pub-pkg-seo.svg?branch=master)](https://travis-ci.org/jldec/pub-pkg-seo)
 
-For now, this [pub-server](https://github.com/jldec/pub-server) package simply
+This [pub-server](https://github.com/jldec/pub-server) package
 provides a convenient way to generate sitemap.xml and robots.txt.
-
-In future this may be enhanced with additional seo tools.
-
 
 ### installation
 
 - `npm install --save pub-pkg-seo`
 -  add `pub-pkg-seo` to your pub-config `pkgs`
-
 
 ### usage
 
