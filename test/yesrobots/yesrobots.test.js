@@ -14,7 +14,7 @@ test('noRobots', function(t) {
   var osrc = opts.outputs[0].src;
   osrc.put = function(files, cb) {
     actual = files;
-    // console.log(files);
+    console.log(files);
     cb && cb();
   };
 
