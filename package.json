@@ -1,6 +1,6 @@
 {
   "name": "pub-pkg-seo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "pub-server package for generating robots.txt and sitemap.xml",
   "main": "pub-config.js",
   "dependencies": {},
@@ -11,6 +11,11 @@
     "pub-src-fs": "^2.0.7",
     "tape": "^4.10.1"
   },
+  "files": [
+    "pub-config.js",
+    "generator-plugin.js",
+    "src/"
+  ],
   "keywords": [
     "publish",
     "seo",
