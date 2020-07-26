@@ -1,5 +1,5 @@
 # pub-pkg-seo
-![CI](https://github.com/jldec/pub-pkg-seo/workflows/CI/badge.svg)
+[![CI](https://github.com/jldec/pub-pkg-seo/workflows/CI/badge.svg)](https://github.com/jldec/pub-pkg-seo/actions)
 
 This [pub-server](https://github.com/jldec/pub-server) package
 provides a convenient way to generate sitemap.xml and robots.txt.
