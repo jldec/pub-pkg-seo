@@ -8,3 +8,4 @@ access:everyone
 nocrawl:1
 nolayout:1
 template:sitemap.xml
+access:everyone
