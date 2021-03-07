@@ -11,9 +11,14 @@ module.exports = function(generator) {
   }
 
   hb.registerHelper('metaSeo', function(frame) {
+    var s = [];
     if (opts.noRobots) {
-      return '<meta name="robots" content="noindex, nofollow">';
+      s.push('<meta name="robots" content="noindex, nofollow">');
     }
+    if (opts.canonicalUrl) {
+      s.push('<link rel="canonical" href="' + opts.canonicalUrl + this._href + '">');
+    }
+    return s.join('\n');
   });
 
 };
