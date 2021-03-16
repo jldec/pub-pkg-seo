@@ -12,7 +12,7 @@ module.exports = function(generator) {
 
   hb.registerHelper('metaSeo', function(frame) {
     var s = [];
-    if (opts.noRobots) {
+    if (opts.noRobots || this.nocrawl) {
       s.push('<meta name="robots" content="noindex, nofollow">');
     }
     if (opts.canonicalUrl) {
